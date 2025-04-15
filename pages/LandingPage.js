@@ -77,7 +77,7 @@ export default function LandingPage() {
                 Connect you with{" "}
                 <span className="salescall">Preapproved</span> buyers &{" "}
                 <span className="">Motivated sellers </span> using
-                <span className="sales"> Lead Pump. </span>.
+                <span className="sales"> Lead Pump.</span>
                 <span className="text_under">
                   {" "}
                   No Monthly Fees, No more Getting Ghosted by sellers,
