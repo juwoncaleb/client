@@ -10,7 +10,7 @@ export default function LandingPage() {
     }
   }, []);
   useEffect(() => {
-    fetch('/api/fb-lead', { method: 'POST' });
+    fetch("/api/fb-lead", { method: "POST" });
   }, []);
   const scrollToTestimonials = () => {
     const element = document.getElementById("testimonials");
@@ -74,16 +74,16 @@ export default function LandingPage() {
             <div className="hero_sub_div mt-4">
               <p className="hero_sub">
                 {" "}
-                We connect you with <span className="salescall">
-                Preapproved
-                </span>{" "}
-                 buyers & <span className="">Motivated sellers on{" "}</span> using 
+                We connect you with{" "}
+                <span className="salescall">Preapproved</span> buyers &{" "}
+                <span className="">Motivated sellers on </span> using
                 <span className="sales"> Lead Pump </span>.
                 <span className="text_under">
                   {" "}
                   No Monthly Fees, Getting Ghosted by sellers.
-                </span> Depending soley
-                <span className="salescall text_under">  Referrals</span>
+                </span>{" "}
+                Depending soley
+                <span className="salescall text_under"> Referrals</span>
               </p>
             </div>
           </div>
@@ -91,7 +91,6 @@ export default function LandingPage() {
 
         <center className="mt-10">
           <div className="button_bg">
-           
             <center>
               <p className="mb-2"></p>
               <button
@@ -101,14 +100,13 @@ export default function LandingPage() {
                     "https://cal.com/omojuwon/30min?overlayCalendar=true")
                 }
               >
-FREE LIVE DEMO - grab your spot now.              </button>
+                FREE LIVE DEMO - grab your spot now.{" "}
+              </button>
             </center>
           </div>
         </center>
       </div>
-<div className="line">
-
-</div>
+      <div className="line"></div>
       <div className="bg-white screenshot">
         <center>
           <p className="testimonila_header rev_head text-white text-center">
@@ -140,7 +138,6 @@ FREE LIVE DEMO - grab your spot now.              </button>
         </div>
         <center className="mt-10">
           <div className="button_bg">
-           
             <center>
               <p className="mb-2"></p>
               <button
@@ -150,11 +147,13 @@ FREE LIVE DEMO - grab your spot now.              </button>
                     "https://cal.com/omojuwon/30min?overlayCalendar=true")
                 }
               >
-FREE LIVE DEMO - grab your spot now.              </button>
+                FREE LIVE DEMO - grab your spot now.{" "}
+              </button>
             </center>
           </div>
         </center>
       </div>
+      
     </div>
   );
 }
