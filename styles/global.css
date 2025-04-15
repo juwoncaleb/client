@@ -103,14 +103,19 @@ body {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   z-index: 9999; /* Ensure it stays on top of other content */
 }
-
+.line{
+  height: 5px;
+  width: 100%;
+  border: solid 2px white;
+  background-color: dodgerblue;
+}
 .button_bg {
   font-family: Montserrat;
   padding: 20px;
   width: 800px;
   background-color: dodgerblue;
   margin-top: 50px;
-  height: 170px;
+  height: 150px;
   margin-bottom: 100px;
 }
 .testimonial_block {

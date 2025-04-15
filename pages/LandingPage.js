@@ -74,16 +74,16 @@ export default function LandingPage() {
             <div className="hero_sub_div mt-4">
               <p className="hero_sub">
                 {" "}
-                Get the <span className="salescall">
-                  Lead Pump™ System{" "}
+                We connect you with <span className="salescall">
+                Preapproved
                 </span>{" "}
-                that delivers Preapproved buyers & Motivated sellers on{" "}
-                <span className="sales">AutoPilot</span>.
+                 buyers & <span className="">Motivated sellers on{" "}</span> using 
+                <span className="sales"> Lead Pump </span>.
                 <span className="text_under">
                   {" "}
-                  No Monthly Fees, posting on Social Media
-                </span>
-                <span className="salescall text_under"> Referral-Begging</span>
+                  No Monthly Fees, Getting Ghosted by sellers.
+                </span> Depending soley
+                <span className="salescall text_under">  Referrals</span>
               </p>
             </div>
           </div>
@@ -91,9 +91,7 @@ export default function LandingPage() {
 
         <center className="mt-10">
           <div className="button_bg">
-            <p className="qualifier">
-              Usually $997 <span className="free">FREE</span> TODAY
-            </p>
+           
             <center>
               <p className="mb-2"></p>
               <button
@@ -103,13 +101,14 @@ export default function LandingPage() {
                     "https://cal.com/omojuwon/30min?overlayCalendar=true")
                 }
               >
-                GET ACCESS TO LEAD PUMP
-              </button>
+FREE LIVE DEMO - grab your spot now.              </button>
             </center>
           </div>
         </center>
       </div>
+<div className="line">
 
+</div>
       <div className="bg-white screenshot">
         <center>
           <p className="testimonila_header rev_head text-white text-center">
@@ -139,30 +138,19 @@ export default function LandingPage() {
           <img className="test_Card" src="./a6.png" alt="testimonial" />
           <img className="test_Card" src="./luka.jpg" alt="testimonial" />
         </div>
-        <center>
+        <center className="mt-10">
           <div className="button_bg">
-            <p className="qualifier">
-              Usually $997 <span className="free">FREE</span> TODAY
-            </p>
-
-            <center className="mt-10">
-              <div className="button_bg">
-                <p className="qualifier">
-                  Usually $997 <span className="free">FREE</span> TODAY
-                </p>
-                <center>
-                  <p className="mb-2"></p>
-                  <button
-                    className="install mb-14"
-                    onClick={() =>
-                      (window.location.href =
-                        "https://cal.com/omojuwon/30min?overlayCalendar=true")
-                    }
-                  >
-                    GET ACCESS TO LEAD PUMP
-                  </button>
-                </center>
-              </div>
+           
+            <center>
+              <p className="mb-2"></p>
+              <button
+                className="install mb-14"
+                onClick={() =>
+                  (window.location.href =
+                    "https://cal.com/omojuwon/30min?overlayCalendar=true")
+                }
+              >
+FREE LIVE DEMO - grab your spot now.              </button>
             </center>
           </div>
         </center>
