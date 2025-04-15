@@ -74,15 +74,15 @@ export default function LandingPage() {
             <div className="hero_sub_div mt-4">
               <p className="hero_sub">
                 {" "}
-                We connect you with{" "}
+                Connect you with{" "}
                 <span className="salescall">Preapproved</span> buyers &{" "}
-                <span className="">Motivated sellers on </span> using
-                <span className="sales"> Lead Pump </span>.
+                <span className="">Motivated sellers </span> using
+                <span className="sales"> Lead Pump. </span>.
                 <span className="text_under">
                   {" "}
-                  No Monthly Fees, Getting Ghosted by sellers.
+                  No Monthly Fees, No more Getting Ghosted by sellers,
                 </span>{" "}
-                Depending soley
+                Depending on
                 <span className="salescall text_under"> Referrals</span>
               </p>
             </div>
