@@ -140,11 +140,7 @@ export default function LandingPage() {
           <img className="test_Card" src="./luka.jpg" alt="testimonial" />
         </div>
         <center>
-          <div className="button_bg">
-            <p className="qualifier">
-              Usually $997 <span className="free">FREE</span> TODAY
-            </p>
-
+          
             <center className="mt-10">
               <div className="button_bg">
                 <p className="qualifier">
@@ -164,7 +160,7 @@ export default function LandingPage() {
                 </center>
               </div>
             </center>
-          </div>
+            
         </center>
       </div>
     </div>
