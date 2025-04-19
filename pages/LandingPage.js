@@ -66,24 +66,18 @@ export default function LandingPage() {
             flow & Chasing Referrals{" "}
           </p>
           <div className="h_head ">
-            <p className="hero_head">
-              Close
-              <span className="salescall"> 3+ Deals Monthly </span> — Without
-              Posting Daily or Wondering Where Your Next Client Will Come From
+          <p className="hero_head">
+              Get 10
+              <span className="salescall"> Listing </span> opportunities in 30 days  — Without relying just on referrals to keep afloat
             </p>
-            <div className="hero_sub_div mt-4">
+             <div className="hero_sub_div mt-4">
               <p className="hero_sub">
-                {" "}
-                Connect you with{" "}
-                <span className="salescall">Preapproved</span> buyers &{" "}
-                <span className="">Motivated sellers </span> using
-                <span className="sales"> Lead Pump.</span>
-                <span className="text_under">
-                  {" "}
-                  No Monthly Fees, No more Getting Ghosted by sellers,
-                </span>{" "}
-                Depending on
-                <span className="salescall text_under"> Referrals</span>
+              <span className="salescall">
+                  Lead Pump™
+                </span>{" "} System{" "}
+                connects you to Preapproved buyers & Motivated sellers - Sellers come to You - not the other way around
+                <span className="salescall">  No Cold calls or Door knocking </span>
+                
               </p>
             </div>
           </div>
@@ -91,6 +85,8 @@ export default function LandingPage() {
 
         <center className="mt-10">
           <div className="button_bg">
+                            <p className="text-white mb-2"> Ready to scale pass your current GCI? </p>
+
             <center>
               <p className="mb-2"></p>
               <button
@@ -100,7 +96,7 @@ export default function LandingPage() {
                     "https://cal.com/omojuwon/30min?overlayCalendar=true")
                 }
               >
-                FREE LIVE DEMO - grab your spot now.{" "}
+SCHEDULE A LIVE DEMO CALL - FREE
               </button>
             </center>
           </div>
@@ -139,7 +135,7 @@ export default function LandingPage() {
         <center className="mt-10">
           <div className="button_bg">
             <center>
-              <p className="mb-2"></p>
+                            <p className="text-white mb-2">Ready to scale pass your current GCI? </p>
               <button
                 className="install mb-14"
                 onClick={() =>
@@ -147,7 +143,7 @@ export default function LandingPage() {
                     "https://cal.com/omojuwon/30min?overlayCalendar=true")
                 }
               >
-                FREE LIVE DEMO - grab your spot now.{" "}
+SCHEDULE A LIVE DEMO CALL - FREE
               </button>
             </center>
           </div>
