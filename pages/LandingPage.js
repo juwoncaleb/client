@@ -55,59 +55,61 @@ export default function LandingPage() {
         />
       </Head>
 
-      <div className="mx-auto text-center">
+      <div className="mx-auto landp text-center">
         <center>
-          <p className="notice mb-10">
-            <span className="not"> WHO IS THIS FOR </span>- For Realtors Tired
-            of
-            <span className="bg-yellow-300 text-black px-1 font-bold">
-              Unpredictable Lead{" "}
-            </span>{" "}
-            flow & Chasing Referrals{" "}
-          </p>
-          <div className="h_head ">
-          <p className="hero_head">
-              Get 10
-              <span className="salescall"> Listing </span> opportunities in 30 days  — Without relying just on referrals to keep afloat
+          <div className="hero_sub_div md:mt-20 mt-10">
+            <p className="hero_sub">
+              {" "}
+              <span className="cau text-white"> IMPORTANCE NOTICE </span> For Realtors Stuck at{" "}
+              <span className="text-black">$70K GCI </span>— Fed up with
+              unrealistic sellers, indecisive buyers. Tired of Chasing friends &
+              family for Referrals , wants a Preditable way to grow
             </p>
-             <div className="hero_sub_div mt-4">
+          </div>
+          <div className="h_head ">
+            <p className="hero_head">
+              Get 10
+              <span className="salescall"> Listing </span> Opportunities in 30
+              days — Without Burning Cash on Monthly Marketing,{" "}
+              <span className="salescall">Dependence</span> on Referrals.
+            </p>
+            <div className="hero_sub_div mt-4">
               <p className="hero_sub">
-              <span className="salescall">
-                  Lead Pump™
-                </span>{" "} System{" "}
-                connects you to Preapproved buyers & Motivated sellers - Sellers come to You - not the other way around
-                <span className="salescall">  No Cold calls or Door knocking </span>
-                
+                <span className="salescall">Lead Pump™</span> System connects
+                you to Preapproved buyers & Motivated sellers - Sellers come to
+                You - not the other way around
+                <span className="salescall">
+                  {" "}
+                  No Cold calls or Door knocking{" "}
+                </span>
               </p>
             </div>
           </div>
         </center>
 
-        <center className="mt-10">
-          <div className="button_bg">
-                            <p className="text-white mb-2"> Ready to scale pass your current GCI? </p>
-
-            <center>
-              <p className="mb-2"></p>
-              <button
-                className="install mb-14"
-                onClick={() =>
-                  (window.location.href =
-                    "https://cal.com/omojuwon/30min?overlayCalendar=true")
-                }
-              >
-SCHEDULE A LIVE DEMO CALL - FREE
-              </button>
-            </center>
+        <center>
+          <div className="call mt-14">
+            <p className="text-white prop mt-4 mb-4">
+              Ready to fill your Pipeline today?
+            </p>
+            <button
+              className="install mb-6"
+              onClick={() =>
+                (window.location.href =
+                  "https://tally.so/r/wkkqkZ")
+              }
+            >
+              Click to claim your area exclusivity
+            </button>
           </div>
         </center>
       </div>
-      <div className="line"></div>
       <div className="bg-white screenshot">
         <center>
           <p className="testimonila_header rev_head text-white text-center">
-            <span className="text-white mb-20">
-              A while back, they had the same issues you’re going through.{" "}
+            <span className="text-black mb-20">
+              "It is challenging for me , i went months without Referrals" -
+              RICHARD
             </span>
           </p>{" "}
         </center>
@@ -132,24 +134,23 @@ SCHEDULE A LIVE DEMO CALL - FREE
           <img className="test_Card" src="./a6.png" alt="testimonial" />
           <img className="test_Card" src="./luka.jpg" alt="testimonial" />
         </div>
-        <center className="mt-10">
-          <div className="button_bg">
-            <center>
-                            <p className="text-white mb-2">Ready to scale pass your current GCI? </p>
-              <button
-                className="install mb-14"
-                onClick={() =>
-                  (window.location.href =
-                    "https://cal.com/omojuwon/30min?overlayCalendar=true")
-                }
-              >
-SCHEDULE A LIVE DEMO CALL - FREE
-              </button>
-            </center>
+        <center>
+          <div className="call">
+            <p className="text-white prop mt-4 mb-4">
+              Ready to fill your Pipeline today?
+            </p>
+            <button
+              className="install mb-6"
+              onClick={() =>
+                (window.location.href =
+                  "https://tally.so/r/wkkqkZ")
+              }
+            >
+              Click to claim your area exclusivity
+            </button>
           </div>
         </center>
       </div>
-      
     </div>
   );
 }
