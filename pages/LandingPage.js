@@ -72,7 +72,7 @@ export default function LandingPage() {
               days — Without Burning Cash on Monthly Marketing,{" "}
               <span className="salescall">Dependence</span> on Referrals.
             </p>
-            <div className="hero_sub_div mt-4">
+            <div className="hero_sub_div mt-4 mb-14">
               <p className="hero_sub">
                 <span className="salescall">Lead Pump™</span> System connects
                 you to Preapproved buyers & Motivated sellers - Sellers come to
@@ -87,7 +87,7 @@ export default function LandingPage() {
         </center>
 
         <center>
-          <div className="call mt-14">
+          <div className="call mt-20 mb-20">
             <p className="text-white prop mt-4 mb-4">
               Ready to fill your Pipeline today?
             </p>
