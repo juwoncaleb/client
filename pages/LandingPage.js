@@ -108,7 +108,7 @@ export default function LandingPage() {
         <center>
           <p className="testimonila_header rev_head text-white text-center">
             <span className="text-black mb-20">
-              "It is challenging for me , i went months without Referrals" -
+              It is challenging for me , i went months without Referrals -
               RICHARD
             </span>
           </p>{" "}
