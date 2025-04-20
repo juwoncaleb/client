@@ -62,8 +62,7 @@ export default function LandingPage() {
               {" "}
               <span className="cau text-white"> IMPORTANCE NOTICE </span> For Realtors Stuck at{" "}
               <span className="text-black">$70K GCI </span>— Fed up with
-              unrealistic sellers, indecisive buyers. Tired of Chasing friends &
-              family for Referrals , wants a Preditable way to grow
+              unrealistic sellers, indecisive buyers. 
             </p>
           </div>
           <div className="h_head ">
