@@ -1,25 +1,27 @@
+import { getCalApi } from "@calcom/embed-react";
 import React, { useEffect, useRef } from "react";
 
 export default function Review() {
   const calendlyRef = useRef(null);
 
-  const handleScroll = () => {
-    calendlyRef.current?.scrollIntoView({ behavior: "smooth" });
-  };
-
-  useEffect(() => {
-    // Client-side Pixel event
+  const openCalAndTrack = async () => {
+    // Track Facebook 'Schedule' event
     if (typeof window !== "undefined" && window.fbq) {
       window.fbq("track", "Schedule");
     }
 
-    // Server-side CAPI call
-    fetch("/api/fb-schedule", {
-      method: "POST",
-    }).catch((err) => {
+    // Call your Conversion API
+    fetch("/api/fb-schedule", { method: "POST" }).catch((err) => {
       console.error("FB CAPI error:", err);
     });
-  }, []);
+
+    // Open Cal.com popup
+    const cal = await getCalApi({ namespace: "30min" });
+    cal("open", { 
+      calLink: "omojuwon/30min", 
+      layout: "month_view" 
+    });
+  };
 
   return (
     <div className="bg-black">
@@ -31,7 +33,7 @@ export default function Review() {
           </p>
           <div className="pre_div">
             <p className="pre_meet">
-              Please Watch the short video below — it gives a glimpse into how our system works, helps you get ready for our meeting.
+              Please Watch the short video below — it gives a glimpse into how our system works. To Book a <span className=" font-bold bg-yellow-300 text-black "> MEETING </span> click the button below
             </p>
           </div>
           <div>
@@ -43,9 +45,15 @@ export default function Review() {
               allowFullScreen
             ></iframe>
           </div>
+
+          {/* Book a Call button */}
+          <button onClick={openCalAndTrack} className="next_btn mt-10 mb-4">
+            Book a Call
+          </button>
         </center>
       </div>
 
+      {/* Second Book a Call button below */}
       <div className="rest_review">
         <div className="caution flex justify-center gap-20">
           <img className="book" src="./right.png" />
@@ -54,27 +62,10 @@ export default function Review() {
             <p className="rese">
               We take on 5 new clients every 3 months so we can give you our full attention and do amazing work.- We <span className="chase_bold">CHASE</span> perfection and excellence.
             </p>
-            <button onClick={handleScroll} className="next_btn mt-10 mb-14">
+            <button onClick={openCalAndTrack} className="next_btn mt-10 mb-14">
               Book a Call
             </button>
           </div>
-        </div>
-      </div>
-
-      <div className="bg-white screenshot">
-        <center>
-          <p className="testimonila_header rev_head text-white text-center">
-            <span className="text-white mb-20">
-              A while back, they had the same issues you’re going through.
-            </span>
-          </p>
-        </center>
-
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 justify-items-center tts mt-14 px-4">
-          <img className="test_Card" src="./a1.png" alt="testimonial" />
-          <img className="test_Card" src="./a2.png" alt="testimonial" />
-          <img className="test_Card" src="./a6.png" alt="testimonial" />
-          <img className="test_Card" src="./luka.jpg" alt="testimonial" />
         </div>
       </div>
     </div>
