@@ -55,105 +55,103 @@ export default function LandingPage() {
         />
       </Head>
 
-      <div className="mx-auto text-center">
+      <div className="mx-auto landp text-center">
         <center>
-          <p className="notice mb-10">
-            <span className="not"> WHO IS THIS FOR </span>- For Realtors Tired
-            of
-            <span className="bg-yellow-300 text-black px-1 font-bold">
-              Unpredictable Lead{" "}
-            </span>{" "}
-            flow & Chasing Referrals{" "}
-          </p>
+          <div className="hero_sub_div ">
+            <p className="hero_sub">
+              {" "}
+              <span className="cau mr-1"> IMPORTANCE NOTICE </span> For Realtors
+              Stuck at <span className="text-white">$70K GCI </span>— Fed up
+              with unrealistic sellers, indecisive buyers.
+            </p>
+          </div>
           <div className="h_head ">
             <p className="hero_head">
-              Close
-              <span className="salescall"> 3+ Deals Monthly </span> — Without
-              Posting Daily or Wondering Where Your Next Client Will Come From
+              Get 10
+              <span className="salescall"> Listing </span> Opportunities in 30
+              days — Without Burning Cash on{" "}
+              <span className="marketing">Marketing</span>,{" "}
             </p>
-            <div className="hero_sub_div mt-4">
+            <div className="hero_sub_div mt-4 mb-14">
               <p className="hero_sub">
-                {" "}
-                Connect you with{" "}
-                <span className="salescall">Preapproved</span> buyers &{" "}
-                <span className="">Motivated sellers </span> using
-                <span className="sales"> Lead Pump.</span>
-                <span className="text_under">
+                <span className="salescall">Lead Pump™</span> System connects
+                you to Preapproved buyers & Motivated sellers - Sellers come to
+                You - not the other way around
+                <span className="salescall">
                   {" "}
-                  No Monthly Fees, No more Getting Ghosted by sellers,
-                </span>{" "}
-                Depending on
-                <span className="salescall text_under"> Referrals</span>
+                  No Cold calls or Door knocking{" "}
+                </span>
               </p>
             </div>
           </div>
+          <iframe
+            style={{
+              display: "block",
+              margin: "auto",
+              width: "902px",
+              maxWidth: "100%",
+              aspectRatio: "1.7708830548926013",
+            }}
+            src="https://killerplayer.com/watch/video/c910f0fe-ffeb-47d7-8671-e7bcc8f08942"
+            frameBorder="0"
+            allow="autoplay; gyroscope; picture-in-picture"
+            allowFullScreen
+          ></iframe>
         </center>
 
-        <center className="mt-10">
-          <div className="button_bg">
-            <center>
-              <p className="mb-2"></p>
-              <button
-                className="install mb-14"
-                onClick={() =>
-                  (window.location.href =
-                    "https://cal.com/omojuwon/30min?overlayCalendar=true")
-                }
-              >
-                FREE LIVE DEMO - grab your spot now.{" "}
-              </button>
-            </center>
+        <center>
+          <div className="call mt-20 mb-20">
+            <p className="text-white  mt-4 mb-4">
+              Ready to fill your Pipeline today?
+            </p>
+            <button
+  className="install mb-6"
+  onClick={() => {
+    if (typeof window !== "undefined" && window.fbq) {
+      window.fbq('track', 'Lead'); // Fire Facebook Lead event
+    }
+    fetch("/api/fb-lead", { method: "POST" }); // Call your backend Conversion API route
+    window.location.href = "https://tally.so/r/wkkqkZ"; // Redirect
+  }}
+>
+  Take The Next Step
+</button>
           </div>
         </center>
       </div>
-      <div className="line"></div>
       <div className="bg-white screenshot">
         <center>
           <p className="testimonila_header rev_head text-white text-center">
-            <span className="text-white mb-20">
-              A while back, they had the same issues you’re going through.{" "}
-            </span>
+            <span className="text-black mb-20">Testimonial and Reviews</span>
           </p>{" "}
         </center>
-        <div className="flex justify-center">
-          <div className="relative w-full max-w-3xl">
-            <iframe
-              src="https://player.vimeo.com/video/1070872120?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
-              frameBorder="0"
-              allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media"
-              className="w-full h-full"
-              title="Richard"
-              style={{
-                border: "none", // Remove the iframe border
-                aspectRatio: "16/9", // Maintain the aspect ratio of the video
-              }}
-            ></iframe>
-          </div>
-        </div>
+
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 justify-items-center tts mt-14 px-4">
           <img className="test_Card" src="./a1.png" alt="testimonial" />
           <img className="test_Card" src="./a2.png" alt="testimonial" />
           <img className="test_Card" src="./a6.png" alt="testimonial" />
           <img className="test_Card" src="./luka.jpg" alt="testimonial" />
         </div>
-        <center className="mt-10">
-          <div className="button_bg">
-            <center>
-              <p className="mb-2"></p>
-              <button
-                className="install mb-14"
-                onClick={() =>
-                  (window.location.href =
-                    "https://cal.com/omojuwon/30min?overlayCalendar=true")
-                }
-              >
-                FREE LIVE DEMO - grab your spot now.{" "}
-              </button>
-            </center>
+        <center>
+          <div className="call">
+            <p className="text-white prop mt-4 mb-4">
+              Ready to fill your Pipeline today?
+            </p>
+            <button
+  className="install mb-6"
+  onClick={() => {
+    if (typeof window !== "undefined" && window.fbq) {
+      window.fbq('track', 'Lead'); // Fire Facebook Lead event
+    }
+    fetch("/api/fb-lead", { method: "POST" }); // Call your backend Conversion API route
+    window.location.href = "https://tally.so/r/wkkqkZ"; // Redirect
+  }}
+>
+  Click to claim your area exclusivity
+</button>
           </div>
         </center>
       </div>
-      
     </div>
   );
 }

@@ -14,14 +14,14 @@ body {
 
 .h_head {
   max-width: 1100px;
-  padding-top: 60px;
+  padding-top: 35px;
 }
 .hero_head_sub {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 600;
+  font-weight: 800;
   font-style: normal;
-  color: rgb(240, 240, 240);
+  color: white !important;
   line-height: 72px;
   font-size: 22px;
   text-align: center;
@@ -29,9 +29,9 @@ body {
 .hero_head {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 600;
+  font-weight: 800;
   font-style: normal;
-  color: rgb(240, 240, 240);
+  color: white;
   line-height: 72px;
   font-size: 60px;
   text-align: center;
@@ -58,8 +58,12 @@ body {
 }
 
 .salescall {
-  color: yellow;
-  font-weight: 600;
+  color: #AEFE06;
+  font-weight: 800;
+}
+.marketing {
+  text-decoration: underline;
+  text-decoration-color: #AEFE06;
 }
 .video {
   width: 800px;
@@ -78,15 +82,14 @@ body {
   font-weight: 500;
   font-size: 18px;
   margin-top: 50px;
-  margin-bottom: 100px;
 }
 .install {
-  background-color: black;
-  color: yellow;
+  background-color: #AEFE06;
+  color: black;
   width: 620px;
   border-radius: 7px;
   height: 100px;
-  font-weight: 500;
+  font-weight: 800;
   padding-left: 0px 10px;
   font-size: 27px;
 }
@@ -103,7 +106,7 @@ body {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   z-index: 9999; /* Ensure it stays on top of other content */
 }
-.line{
+.line {
   height: 5px;
   width: 100%;
   border: solid 2px white;
@@ -111,12 +114,9 @@ body {
 }
 .button_bg {
   font-family: Montserrat;
-  padding: 20px;
+  padding: 10px;
   width: 800px;
   background-color: dodgerblue;
-  margin-top: 50px;
-  height: 150px;
-  margin-bottom: 100px;
 }
 .testimonial_block {
   font-family: Montserrat;
@@ -126,7 +126,10 @@ body {
   color: white;
 }
 .vsl_page {
-  background-color: black;
+  background-color: #0039C6;
+  padding-top: 50px;
+  color: black !important;
+ 
 }
 .Trigger {
   color: white;
@@ -201,8 +204,24 @@ iframe {
   font-family: Nunito;
   font-size: 20px;
 }
-.pre_div{
+.pre_div {
   max-width: 800px;
+}
+.landp{
+margin-bottom: 50px;}
+.prop{
+  font-size: 20px;
+}
+.cau{
+  background-color: #AEFE06;
+  color: black;
+  font-weight: 600;
+}
+.call {
+  background-color: dodgerblue;
+  padding: 5px;
+  margin-top: 50px;
+  max-width: 750px;
 }
 .broker_ext {
   max-width: 800px;
@@ -216,7 +235,7 @@ iframe {
   font-size: 20px;
 }
 .hero_sub_div {
-  max-width: 600px;
+  max-width: 1000px;
 }
 .pastclient {
   height: 400px;
@@ -309,9 +328,9 @@ iframe {
   .hero_head {
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 600;
+    font-weight: 800;
     font-style: normal;
-    color: rgb(240, 240, 240);
+    color: white;
     line-height: 72px;
     font-size: 50px;
     text-align: center;
@@ -326,6 +345,10 @@ iframe {
 }
 
 @media only screen and (max-width: 800px) {
+  .landp{
+    padding-left: 3%;
+    padding-right: 3%;
+  }
   .h_head {
     max-width: 700px;
   }
@@ -362,10 +385,10 @@ iframe {
   .hero_head {
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 600;
+    font-weight: 800;
     font-style: normal;
-    color: rgb(240, 240, 240);
-    line-height: 72px;
+    color: white;
+    line-height: 52px;
     font-size: 40px;
     text-align: center;
   }
@@ -381,9 +404,10 @@ iframe {
     padding: 20px;
     width: 100%;
     background-color: dodgerblue;
-    margin-top: 50px;
-    height: 150px;
-    margin-bottom: 100px;
+  }
+  .hero_sub {
+    color: white;
+    font-size: 16px;
   }
 }
 
@@ -406,19 +430,26 @@ iframe {
   width: 500px;
 }
 .screenshot {
-  padding-bottom: 100px;
-  background-color: black;
-  color: white;
+  padding-bottom: 10px;
+  background-color: rgba(128, 128, 128, 0.548);
+  color: black;
+  padding-top: 10px;
+  border-top: 4px solid black;
+
 }
 
 @media only screen and (max-width: 450px) {
+  .hero_sub {
+    color: white;
+    font-size: 16px;
+  }
   .install {
-    background-color: black;
-    color: yellow;
+    background-color: #AEFE06;
+    color: black;
     width: 350px;
     border-radius: 7px;
-    height: 80px;
-    padding-top: 10px;
+    height: 50px;
+    padding-top: 5px;
     padding-bottom: 1px;
     font-weight: 500;
     padding-left: 0px 10px;
@@ -437,17 +468,21 @@ iframe {
     line-height: 50px;
     margin-bottom: 0px;
   }
+  .prop{
+    font-size: 16px;
+  }
   .hero_head {
     font-size: 30px;
-    line-height: 42px;
+    line-height: 37px;
     text-align: center;
-    font-weight: 600;
-    color: rgb(240, 240, 240);
+    font-weight: 800;
+    color: white;
     font-family: "Inter", sans-serif;
   }
   .tts {
     display: grid !important;
   }
+  
   .warning {
     text-align: center;
     font-size: 15px;
@@ -502,8 +537,14 @@ iframe {
     margin-top: 80px;
     color: white;
   }
+  .call {
+    background-color: dodgerblue;
+    padding: 5px;
+    margin-top: 30px;
+    max-width: 750px;
+  }
   .hero_sub {
     color: white;
-    font-size: 16px;
+    font-size: 14px;
   }
 }
