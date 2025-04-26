@@ -57,20 +57,20 @@ export default function LandingPage() {
 
       <div className="mx-auto landp text-center">
         <center>
-          <div className="hero_sub_div md:mt-20 mt-10">
+          <div className="hero_sub_div ">
             <p className="hero_sub">
               {" "}
-              <span className="cau text-white"> IMPORTANCE NOTICE </span> For Realtors Stuck at{" "}
-              <span className="text-black">$70K GCI </span>— Fed up with
-              unrealistic sellers, indecisive buyers. 
+              <span className="cau mr-1"> IMPORTANCE NOTICE </span> For Realtors
+              Stuck at <span className="text-white">$70K GCI </span>— Fed up
+              with unrealistic sellers, indecisive buyers.
             </p>
           </div>
           <div className="h_head ">
             <p className="hero_head">
               Get 10
               <span className="salescall"> Listing </span> Opportunities in 30
-              days — Without Burning Cash on Monthly Marketing,{" "}
-              <span className="salescall">Dependence</span> on Referrals.
+              days — Without Burning Cash on{" "}
+              <span className="marketing">Marketing</span>,{" "}
             </p>
             <div className="hero_sub_div mt-4 mb-14">
               <p className="hero_sub">
@@ -84,49 +84,48 @@ export default function LandingPage() {
               </p>
             </div>
           </div>
+          <iframe
+            style={{
+              display: "block",
+              margin: "auto",
+              width: "902px",
+              maxWidth: "100%",
+              aspectRatio: "1.7708830548926013",
+            }}
+            src="https://killerplayer.com/watch/video/c910f0fe-ffeb-47d7-8671-e7bcc8f08942"
+            frameBorder="0"
+            allow="autoplay; gyroscope; picture-in-picture"
+            allowFullScreen
+          ></iframe>
         </center>
 
         <center>
           <div className="call mt-20 mb-20">
-            <p className="text-white prop mt-4 mb-4">
+            <p className="text-white  mt-4 mb-4">
               Ready to fill your Pipeline today?
             </p>
             <button
-              className="install mb-6"
-              onClick={() =>
-                (window.location.href =
-                  "https://tally.so/r/wkkqkZ")
-              }
-            >
-              Click to claim your area exclusivity
-            </button>
+  className="install mb-6"
+  onClick={() => {
+    if (typeof window !== "undefined" && window.fbq) {
+      window.fbq('track', 'Lead'); // Fire Facebook Lead event
+    }
+    fetch("/api/fb-lead", { method: "POST" }); // Call your backend Conversion API route
+    window.location.href = "https://tally.so/r/wkkqkZ"; // Redirect
+  }}
+>
+  Take The Next Step
+</button>
           </div>
         </center>
       </div>
       <div className="bg-white screenshot">
         <center>
           <p className="testimonila_header rev_head text-white text-center">
-            <span className="text-black mb-20">
-              It is challenging for me , i went months without Referrals -
-              RICHARD
-            </span>
+            <span className="text-black mb-20">Testimonial and Reviews</span>
           </p>{" "}
         </center>
-        <div className="flex justify-center">
-          <div className="relative w-full max-w-3xl">
-            <iframe
-              src="https://player.vimeo.com/video/1070872120?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
-              frameBorder="0"
-              allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media"
-              className="w-full h-full"
-              title="Richard"
-              style={{
-                border: "none", // Remove the iframe border
-                aspectRatio: "16/9", // Maintain the aspect ratio of the video
-              }}
-            ></iframe>
-          </div>
-        </div>
+
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 justify-items-center tts mt-14 px-4">
           <img className="test_Card" src="./a1.png" alt="testimonial" />
           <img className="test_Card" src="./a2.png" alt="testimonial" />
@@ -139,14 +138,17 @@ export default function LandingPage() {
               Ready to fill your Pipeline today?
             </p>
             <button
-              className="install mb-6"
-              onClick={() =>
-                (window.location.href =
-                  "https://tally.so/r/wkkqkZ")
-              }
-            >
-              Click to claim your area exclusivity
-            </button>
+  className="install mb-6"
+  onClick={() => {
+    if (typeof window !== "undefined" && window.fbq) {
+      window.fbq('track', 'Lead'); // Fire Facebook Lead event
+    }
+    fetch("/api/fb-lead", { method: "POST" }); // Call your backend Conversion API route
+    window.location.href = "https://tally.so/r/wkkqkZ"; // Redirect
+  }}
+>
+  Click to claim your area exclusivity
+</button>
           </div>
         </center>
       </div>
