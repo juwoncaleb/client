@@ -15,11 +15,11 @@ export default function Review() {
       console.error("FB CAPI error:", err);
     });
 
-    // Open Cal.com popup
+    // Open Cal.com popup correctly
     const cal = await getCalApi({ namespace: "30min" });
-    cal("open", { 
-      calLink: "omojuwon/30min", 
-      layout: "month_view" 
+    cal?.openPopup({
+      calLink: "omojuwon/30min",
+      layout: "month_view"
     });
   };
 
