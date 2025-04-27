@@ -1,5 +1,6 @@
 import { getCalApi } from "@calcom/embed-react";
-import React, { useRef } from "react";
+import React, { useEffect, useRef } from "react";
+import Link from "next/link";
 
 export default function Review() {
   const calendlyRef = useRef(null);
@@ -10,7 +11,7 @@ export default function Review() {
       window.fbq("track", "Schedule");
     }
 
-    // Call your server for Conversion API tracking
+    // Call your Conversion API
     fetch("/api/fb-schedule", { method: "POST" }).catch((err) => {
       console.error("FB CAPI error:", err);
     });
@@ -29,11 +30,20 @@ export default function Review() {
         <center>
           <p className="AGent_text text-white">
             Every successful Agent, we worked with started just like
-            <span className="bg-yellow-300 text-black px-1 font-bold"> YOU </span>
+            <span className="bg-yellow-300 text-black px-1 font-bold">
+              {" "}
+              YOU{" "}
+            </span>
           </p>
           <div className="pre_div">
             <p className="pre_meet">
-              Please Watch the short video below — it gives a glimpse into how our system works. To Book a <span className=" font-bold bg-yellow-300 text-black "> MEETING </span> click the button below
+              Please Watch the short video below — it gives a glimpse into how
+              our system works. To Book a{" "}
+              <span className=" font-bold bg-yellow-300 text-black ">
+                {" "}
+                MEETING{" "}
+              </span>{" "}
+              click the button below
             </p>
           </div>
           <div>
@@ -47,24 +57,32 @@ export default function Review() {
           </div>
 
           {/* Book a Call button */}
-          <button onClick={openCalAndTrack} className="next_btn mt-10 mb-4">
-            Book a Call
-          </button>
+          <Link href="https://cal.com/omojuwon/30min">
+            <button onClick={openCalAndTrack} className="next_btn mt-10 mb-4">
+              Book a Call
+            </button>
+          </Link>
         </center>
       </div>
 
-      {/* Second Book a Call button */}
+      {/* Second Book a Call button below */}
       <div className="rest_review">
         <div className="caution flex justify-center gap-20">
           <img className="book" src="./right.png" />
           <div className="cautpn">
             <p className="secre mb-6">Right to Reservation</p>
             <p className="rese">
-              We take on 5 new clients every 3 months so we can give you our full attention and do amazing work.- We <span className="chase_bold">CHASE</span> perfection and excellence.
+              We take on 5 new clients every 3 months so we can give you our
+              full attention and do amazing work.- We{" "}
+              <span className="chase_bold">CHASE</span> perfection and
+              excellence.
             </p>
-            <button onClick={openCalAndTrack} className="next_btn mt-10 mb-14">
-              Book a Call
-            </button>
+            {/* Book a Call button */}
+            <Link href="https://cal.com/omojuwon/30min">
+              <button onClick={openCalAndTrack} className="next_btn mt-10 mb-4">
+                Book a Call
+              </button>
+            </Link>
           </div>
         </div>
       </div>
