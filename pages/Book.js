@@ -1,5 +1,5 @@
 import { getCalApi } from "@calcom/embed-react";
-import React, { useEffect, useRef } from "react";
+import React, { useRef } from "react";
 
 export default function Review() {
   const calendlyRef = useRef(null);
@@ -10,16 +10,16 @@ export default function Review() {
       window.fbq("track", "Schedule");
     }
 
-    // Call your Conversion API
+    // Call your server for Conversion API tracking
     fetch("/api/fb-schedule", { method: "POST" }).catch((err) => {
       console.error("FB CAPI error:", err);
     });
 
-    // Open Cal.com popup correctly
+    // Open Cal.com popup
     const cal = await getCalApi({ namespace: "30min" });
-    cal?.openPopup({
+    cal("open", {
       calLink: "omojuwon/30min",
-      layout: "month_view"
+      layout: "month_view",
     });
   };
 
@@ -53,7 +53,7 @@ export default function Review() {
         </center>
       </div>
 
-      {/* Second Book a Call button below */}
+      {/* Second Book a Call button */}
       <div className="rest_review">
         <div className="caution flex justify-center gap-20">
           <img className="book" src="./right.png" />
