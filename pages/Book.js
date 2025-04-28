@@ -29,21 +29,18 @@ export default function Review() {
       <div className="vsl_div">
         <center>
           <p className="AGent_text text-white">
-            Every successful Agent, we worked with started just like
+            To Book a 
             <span className="bg-yellow-300 text-black px-1 font-bold">
+              {" "}Free Demo call
               {" "}
-              YOU{" "}
-            </span>
+            </span> click the button
           </p>
           <div className="pre_div">
             <p className="pre_meet">
               Please Watch the short video below — it gives a glimpse into how
-              our system works. To Book a{" "}
-              <span className=" font-bold bg-yellow-300 text-black ">
-                {" "}
-                MEETING{" "}
-              </span>{" "}
-              click the button below
+              our system works. {" "}
+              
+
             </p>
           </div>
           <div>
