@@ -29,7 +29,11 @@ export default function Review() {
       <div className="vsl_div">
         <center>
           <p className="AGent_text text-white">
-            See How you can fill your pipeline — Watch the Video & Book Your Free Strategy Call
+            See How you can fill your pipeline — Watch the Video & Book Your Free 
+            <span className=" font-bold bg-yellow-300 text-black ">
+                {" "}
+                Strategy              </span>{" "}
+                Call
           </p>
           <div className="pre_div">
             
