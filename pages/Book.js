@@ -32,12 +32,7 @@ export default function Review() {
             See How you can fill your pipeline — Watch the Video & Book Your Free Strategy Call
           </p>
           <div className="pre_div">
-            <p className="pre_meet">
-              Please Watch the short video below — it gives a glimpse into how
-              our system works. {" "}
-              
-
-            </p>
+            
           </div>
           <div>
             <iframe
