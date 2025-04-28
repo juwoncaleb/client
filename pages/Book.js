@@ -29,11 +29,7 @@ export default function Review() {
       <div className="vsl_div">
         <center>
           <p className="AGent_text text-white">
-            To Book a 
-            <span className="bg-yellow-300 text-black px-1 font-bold">
-              {" "}Free Demo call
-              {" "}
-            </span> click the button
+            See How you can fill your pipeline — Watch the Video & Book Your Free Strategy Call
           </p>
           <div className="pre_div">
             <p className="pre_meet">
