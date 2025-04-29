@@ -37,7 +37,7 @@ export default function Review() {
               IMPORTANT
             </span>{" "}
             Please complete these two quick steps to confirm your call. If we
-            don’t hear back, <br /> we’ll assume you're no longer interested and
+            do not hear back, <br /> we’ll assume you're no longer interested and
             may offer your slot to someone else.
           </p>
           <div className="div_line"></div>
@@ -58,8 +58,8 @@ export default function Review() {
           </p>
 
           <p className="text-white subbook">
-            Search your inbox for Lead PWatch a complete walkthrough of how
-            we'll work together.
+            Watch a complete walkthrough of how
+            we will work together.
           </p>
           <div className="pre_div"></div>
           <div>
