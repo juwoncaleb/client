@@ -37,7 +37,7 @@ export default function Review() {
               IMPORTANT
             </span>{" "}
             Please complete these two quick steps to confirm your call. If we
-            do not hear back, <br /> we’ll assume you're no longer interested and
+            do not hear back, <br /> we will assume you are no longer interested and
             may offer your slot to someone else.
           </p>
           <div className="div_line"></div>
