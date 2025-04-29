@@ -50,7 +50,7 @@ export default function Review() {
             invitation
           </p>
 
-          <img className="confirm" src="./ld.jpg" />
+          <img className="confirm" src="./lb.png" />
           <div className="div_line"></div>
 
           <p className="AGent_text text-white">
