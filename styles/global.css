@@ -161,7 +161,7 @@ body {
   text-decoration: underline;
 }
 .confirm{
-  max-width: 70%;
+  max-width: 80%;
   margin-top: 70px;
   margin-bottom: 70px;
 }
@@ -366,6 +366,11 @@ margin-bottom: 50px;}
     line-height: 55px;
     margin-bottom: 50px;
   }
+  .confirm{
+    max-width: 100%;
+    margin-top: 70px;
+    margin-bottom: 70px;
+  }
 }
 
 @media only screen and (max-width: 800px) {
@@ -466,6 +471,9 @@ margin-bottom: 50px;}
   .hero_sub {
     color: white;
     font-size: 16px;
+  }
+  .subbook{
+    font-size: 18px;
   }
   .install {
     background-color: #AEFE06;
