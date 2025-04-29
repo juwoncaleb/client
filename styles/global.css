@@ -65,6 +65,13 @@ body {
   text-decoration: underline;
   text-decoration-color: #AEFE06;
 }
+.div_line{
+  width: 90%;
+  height: 5px;
+  background-color: white;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
 .video {
   width: 800px;
   max-width: 100%;
@@ -143,10 +150,27 @@ body {
   font-weight: bold;
   text-decoration: underline;
 }
+.subbook{
+  font-size: 22px;
+}
+.pumo{
+  font-size: 17px;
+}
+.bolderText{
+  font-weight: 700;
+  text-decoration: underline;
+}
+.confirm{
+  max-width: 70%;
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
 .AGent_text {
   font-family: "EB Garamond", serif;
-  font-size: 50px;
+  font-size: 60px;
   line-height: 75px;
+  margin-bottom: 15px;
+
 }
 .testimonila_header {
   font-family: "EB Garamond", serif;
@@ -431,10 +455,10 @@ margin-bottom: 50px;}
 }
 .screenshot {
   padding-bottom: 10px;
-  background-color: rgba(128, 128, 128, 0.548);
+  background-color: dodgerblue;
   color: black;
   padding-top: 10px;
-  border-top: 4px solid black;
+  border-top: 4px solid white;
 
 }
 
@@ -511,8 +535,9 @@ margin-bottom: 50px;}
   }
   .AGent_text {
     font-family: "EB Garamond", serif;
-    font-size: 40px;
+    font-size: 45px;
     line-height: 55px;
+    margin-bottom: 15px;
   }
 
   .secre {
