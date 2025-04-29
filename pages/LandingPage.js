@@ -79,20 +79,15 @@ export default function LandingPage() {
                 You - not the other way around
                 <span className="salescall">
                   {" "}
-                  No Cold calls or Door knocking{" "}
+                  No Cold calls or Buying Leads{" "}
                 </span>
               </p>
             </div>
           </div>
           <iframe
-            style={{
-              display: "block",
-              margin: "auto",
-              width: "902px",
-              maxWidth: "100%",
-              aspectRatio: "1.7708830548926013",
-            }}
-            src="https://killerplayer.com/watch/video/c910f0fe-ffeb-47d7-8671-e7bcc8f08942"
+            
+            className="video"
+            src="https://killerplayer.com/watch/video/4a9f8b09-76ae-41a9-9199-bdefa30f3d6b"
             frameBorder="0"
             allow="autoplay; gyroscope; picture-in-picture"
             allowFullScreen
@@ -105,24 +100,24 @@ export default function LandingPage() {
               Ready to fill your Pipeline today?
             </p>
             <button
-  className="install mb-6"
-  onClick={() => {
-    if (typeof window !== "undefined" && window.fbq) {
-      window.fbq('track', 'Lead'); // Fire Facebook Lead event
-    }
-    fetch("/api/fb-lead", { method: "POST" }); // Call your backend Conversion API route
-    window.location.href = "https://tally.so/r/wkkqkZ"; // Redirect
-  }}
->
-  Take The Next Step
-</button>
+              className="install mb-6"
+              onClick={() => {
+                if (typeof window !== "undefined" && window.fbq) {
+                  window.fbq("track", "Scheduled"); // Fire custom FB event for scheduling
+                }
+                fetch("/api/fb-scheduled", { method: "POST" }); // Hit your scheduled endpoint
+                window.location.href = "https://cal.com/omojuwon/30min"; // Redirect to cal.com
+              }}
+            >
+              Book Your Free Strategy Call
+            </button>
           </div>
         </center>
       </div>
       <div className="bg-white screenshot">
         <center>
           <p className="testimonila_header rev_head text-white text-center">
-            <span className="text-black mb-20">Testimonial and Reviews</span>
+            <span className="text-white mb-20">Testimonial and Reviews</span>
           </p>{" "}
         </center>
 
@@ -138,17 +133,17 @@ export default function LandingPage() {
               Ready to fill your Pipeline today?
             </p>
             <button
-  className="install mb-6"
-  onClick={() => {
-    if (typeof window !== "undefined" && window.fbq) {
-      window.fbq('track', 'Lead'); // Fire Facebook Lead event
-    }
-    fetch("/api/fb-lead", { method: "POST" }); // Call your backend Conversion API route
-    window.location.href = "https://tally.so/r/wkkqkZ"; // Redirect
-  }}
->
-  Click to claim your area exclusivity
-</button>
+              className="install mb-6"
+              onClick={() => {
+                if (typeof window !== "undefined" && window.fbq) {
+                  window.fbq("track", "Scheduled"); // Fire custom FB event for scheduling
+                }
+                fetch("/api/fb-scheduled", { method: "POST" }); // Hit your scheduled endpoint
+                window.location.href = "https://cal.com/omojuwon/30min"; // Redirect to cal.com
+              }}
+            >
+              Book Your Free Strategy Call
+            </button>
           </div>
         </center>
       </div>
