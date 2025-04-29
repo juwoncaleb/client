@@ -29,15 +29,39 @@ export default function Review() {
       <div className="vsl_div">
         <center>
           <p className="AGent_text text-white">
-            See How you can fill your pipeline — Watch the Video & Book Your Free 
-            <span className=" font-bold bg-yellow-300 text-black ">
-                {" "}
-                Strategy              </span>{" "}
-                Call
+            Congrats! Your Call Has Been Booked.
           </p>
-          <div className="pre_div">
-            
-          </div>
+          <p className="text-white subbook">
+            {" "}
+            <span className=" font-bold bg-yellow-300 text-black ">
+              IMPORTANT
+            </span>{" "}
+            Please complete these two quick steps to confirm your call. If we
+            don’t hear back, <br /> we’ll assume you're no longer interested and
+            may offer your slot to someone else.
+          </p>
+          <div className="div_line"></div>
+
+          <p className="AGent_text text-white">Step 1: Confirm Your Call </p>
+
+          <p className="text-white subbook">
+            Search your inbox for Lead Pump. Click{" "}
+            <span className="bolderText">Yes</span> and for the calendar
+            invitation
+          </p>
+
+          <img className="confirm" src="./ld.jpg" />
+          <div className="div_line"></div>
+
+          <p className="AGent_text text-white">
+            Step 2: Learn How Our Process Works{" "}
+          </p>
+
+          <p className="text-white subbook">
+            Search your inbox for Lead PWatch a complete walkthrough of how
+            we'll work together.
+          </p>
+          <div className="pre_div"></div>
           <div>
             <iframe
               className="video"
@@ -49,11 +73,7 @@ export default function Review() {
           </div>
 
           {/* Book a Call button */}
-          <Link href="https://cal.com/omojuwon/30min">
-            <button onClick={openCalAndTrack} className="next_btn mt-10 mb-4">
-              Book a Call
-            </button>
-          </Link>
+        
         </center>
       </div>
 
@@ -70,11 +90,7 @@ export default function Review() {
               excellence.
             </p>
             {/* Book a Call button */}
-            <Link href="https://cal.com/omojuwon/30min">
-              <button onClick={openCalAndTrack} className="next_btn mt-10 mb-4">
-                Book a Call
-              </button>
-            </Link>
+          
           </div>
         </div>
       </div>
