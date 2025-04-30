@@ -67,7 +67,7 @@ export default function LandingPage() {
           </div>
           <div className="h_head ">
             <p className="hero_head">
-              Get 10
+              Get 3+
               <span className="salescall"> Listing </span> Opportunities in 30
               days — Without Burning Cash on{" "}
               <span className="marketing">Marketing</span>,{" "}
