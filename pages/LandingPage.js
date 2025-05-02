@@ -60,14 +60,14 @@ export default function LandingPage() {
           <div className="hero_sub_div ">
             <p className="hero_sub">
               {" "}
-              <span className="cau mr-1"> IMPORTANCE NOTICE </span> For Realtors
+            <span className="cau mr-1"> IMPORTANCE NOTICE </span> For full time Real estate Brokers
               Stuck at <span className="text-white">$70K GCI </span>— Fed up
               with unrealistic sellers, indecisive buyers.
             </p>
           </div>
           <div className="h_head ">
             <p className="hero_head">
-              Get 10
+              Get 3+
               <span className="salescall"> Listing </span> Opportunities in 30
               days — Without Burning Cash on{" "}
               <span className="marketing">Marketing</span>,{" "}
