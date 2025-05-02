@@ -488,6 +488,9 @@ margin-bottom: 50px;}
 
     font-size: 18px;
   }
+  .cdh{
+    height: 200px !important;
+  }
   .book {
     height: 270px;
   }
@@ -514,7 +517,9 @@ margin-bottom: 50px;}
   .tts {
     display: grid !important;
   }
-  
+  .cdh{
+    height: 150px !important;
+  }
   .warning {
     text-align: center;
     font-size: 15px;
