@@ -61,7 +61,7 @@ export default function LandingPage() {
             <p className="hero_sub">
               {" "}
               <span className="cau mr-1"> IMPORTANCE NOTICE </span> For Realtors
-              Stuck at <span className="text-white">$70K GCI </span>— Fed up
+              Stuck at <span className="text-white"> $70K GCI </span>— Fed up
               with unrealistic sellers, indecisive buyers.
             </p>
           </div>
@@ -76,11 +76,10 @@ export default function LandingPage() {
               <p className="hero_sub">
                 <span className="salescall">Lead Pump™</span> System connects
                 you to Preapproved buyers & Motivated sellers - Sellers come to
-                You - not the other way around
+                You - not the other way around. You You do not  
                 <span className="salescall">
                   {" "}
-                  No Cold calls or Buying Leads{" "}
-                </span>
+Ghosted                </span> after a Listing presentation anymore or compete with other agentsto win a lisitng agreement
               </p>
             </div>
           </div>
@@ -122,8 +121,7 @@ export default function LandingPage() {
         </center>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 justify-items-center tts mt-14 px-4">
-          <img className="test_Card" src="./a1.png" alt="testimonial" />
-          <img className="test_Card" src="./a2.png" alt="testimonial" />
+        
           <img className="test_Card" src="./a6.png" alt="testimonial" />
           <img className="test_Card" src="./luka.jpg" alt="testimonial" />
         </div>
