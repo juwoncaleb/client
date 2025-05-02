@@ -61,13 +61,13 @@ export default function LandingPage() {
             <p className="hero_sub">
               {" "}
               <span className="cau mr-1"> IMPORTANCE NOTICE </span> For Realtors
-              Stuck at <span className="text-white"> $70K GCI </span>— Fed up
+              Stuck at <span className="text-white">$70K GCI </span>— Fed up
               with unrealistic sellers, indecisive buyers.
             </p>
           </div>
           <div className="h_head ">
             <p className="hero_head">
-              Get 3+
+              Get 10
               <span className="salescall"> Listing </span> Opportunities in 30
               days — Without Burning Cash on{" "}
               <span className="marketing">Marketing</span>,{" "}
@@ -76,10 +76,11 @@ export default function LandingPage() {
               <p className="hero_sub">
                 <span className="salescall">Lead Pump™</span> System connects
                 you to Preapproved buyers & Motivated sellers - Sellers come to
-                You - not the other way around. You You do not  
+                You - not the other way around
                 <span className="salescall">
                   {" "}
-Ghosted                </span> after a Listing presentation anymore or compete with other agentsto win a lisitng agreement
+                  No Cold calls or Buying Leads{" "}
+                </span>
               </p>
             </div>
           </div>
@@ -120,10 +121,10 @@ Ghosted                </span> after a Listing presentation anymore or compete w
           </p>{" "}
         </center>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 justify-items-center tts mt-14 px-4">
-        
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 justify-items-center tts mt-14 px-4">
+    
           <img className="test_Card" src="./a6.png" alt="testimonial" />
-          <img className="test_Card" src="./luka.jpg" alt="testimonial" />
+          <img className=" cdh" src="./luka.jpg" alt="testimonial" />
         </div>
         <center>
           <div className="call">
