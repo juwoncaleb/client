@@ -24,7 +24,7 @@ export default function LandingPage() {
     <div className="vsl_page bg-cover bg-center bg-no-repeat min-h-screen ">
       <Head>
         <title>
-          Lead Pump™ for Realtors - Get Clients Without Posting Daily
+          For Interior designers
         </title>
         <meta
           property="og:title"
@@ -32,7 +32,7 @@ export default function LandingPage() {
         />
         <meta
           property="og:description"
-          content="For Realtors tired of chasing referrals — get preapproved buyers & motivated sellers on autopilot. No posting. No retainers."
+          content="For Interior designers."
         />
         <meta
           property="og:image"
@@ -43,7 +43,7 @@ export default function LandingPage() {
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
-          content="Lead Pump™ for Realtors - Get Clients Without Posting Daily"
+          content="For Interior designers"
         />
         <meta
           name="twitter:description"
