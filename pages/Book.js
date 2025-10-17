@@ -1,5 +1,6 @@
 import { getCalApi } from "@calcom/embed-react";
 import React, { useEffect, useRef } from "react";
+import Link from "next/link";
 
 export default function Review() {
   const calendlyRef = useRef(null);
@@ -17,9 +18,9 @@ export default function Review() {
 
     // Open Cal.com popup
     const cal = await getCalApi({ namespace: "30min" });
-    cal("open", { 
-      calLink: "omojuwon/30min", 
-      layout: "month_view" 
+    cal("open", {
+      calLink: "omojuwon/30min",
+      layout: "month_view",
     });
   };
 
@@ -28,14 +29,39 @@ export default function Review() {
       <div className="vsl_div">
         <center>
           <p className="AGent_text text-white">
-            Every successful Agent, we worked with started just like
-            <span className="bg-yellow-300 text-black px-1 font-bold"> YOU </span>
+            Congrats! Your Call Has Been Booked.
           </p>
-          <div className="pre_div">
-            <p className="pre_meet">
-              Please Watch the short video below — it gives a glimpse into how our system works. To Book a <span className=" font-bold bg-yellow-300 text-black "> MEETING </span> click the button below
-            </p>
-          </div>
+          <p className="text-white subbook">
+            {" "}
+            <span className=" font-bold bg-yellow-300 text-black ">
+              IMPORTANT
+            </span>{" "}
+            Please complete these two quick steps to confirm your call. If we
+            do not hear back, <br /> we will assume you are no longer interested and
+            may offer your slot to someone else.
+          </p>
+          <div className="div_line"></div>
+
+          <p className="AGent_text text-white">Step 1: Confirm Your Call </p>
+
+          <p className="text-white subbook">
+            Search your inbox for Lead Pump. Click{" "}
+            <span className="bolderText">Yes</span> and for the calendar
+            invitation
+          </p>
+
+          <img className="confirm" src="./lb.png" />
+          <div className="div_line"></div>
+
+          <p className="AGent_text text-white">
+            Step 2: Learn How Our Process Works{" "}
+          </p>
+
+          <p className="text-white subbook">
+            Watch a complete walkthrough of how
+            we will work together.
+          </p>
+          <div className="pre_div"></div>
           <div>
             <iframe
               className="video"
@@ -47,9 +73,7 @@ export default function Review() {
           </div>
 
           {/* Book a Call button */}
-          <button onClick={openCalAndTrack} className="next_btn mt-10 mb-4">
-            Book a Call
-          </button>
+        
         </center>
       </div>
 
@@ -60,11 +84,13 @@ export default function Review() {
           <div className="cautpn">
             <p className="secre mb-6">Right to Reservation</p>
             <p className="rese">
-              We take on 5 new clients every 3 months so we can give you our full attention and do amazing work.- We <span className="chase_bold">CHASE</span> perfection and excellence.
+              We take on 5 new clients every 3 months so we can give you our
+              full attention and do amazing work.- We{" "}
+              <span className="chase_bold">CHASE</span> perfection and
+              excellence.
             </p>
-            <button onClick={openCalAndTrack} className="next_btn mt-10 mb-14">
-              Book a Call
-            </button>
+            {/* Book a Call button */}
+          
           </div>
         </div>
       </div>

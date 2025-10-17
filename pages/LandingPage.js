@@ -36,7 +36,7 @@ export default function LandingPage() {
         />
         <meta
           property="og:image"
-          content="https://ik.imagekit.io/juwoncaleb/image_wamHggfiv.png?updatedAt=1744293661643"
+          content="https://ik.imagekit.io/juwoncaleb/Screenshot%202025-04-29%20164345_mnrAnKNT4.jpg?updatedAt=1745941553167"
         />
         <meta property="og:url" content="https://yourdomain.com" />
         <meta property="og:type" content="website" />
@@ -57,100 +57,57 @@ export default function LandingPage() {
 
       <div className="mx-auto landp text-center">
         <center>
-          <div className="hero_sub_div ">
-            <p className="hero_sub">
-              {" "}
-              <span className="cau mr-1"> IMPORTANCE NOTICE </span> For Realtors
-              Stuck at <span className="text-white">$70K GCI </span>— Fed up
-              with unrealistic sellers, indecisive buyers.
-            </p>
-          </div>
+          <div className="hero_sub_div "></div>
           <div className="h_head ">
             <p className="hero_head">
-              Get 10
-              <span className="salescall"> Listing </span> Opportunities in 30
-              days — Without Burning Cash on{" "}
-              <span className="marketing">Marketing</span>,{" "}
+              We Deliver 30–50 Qualified Commercial and Residential
+              Consultations
+              <span className="salescall mr-2"> Monthly. </span> Fill your Calender with consistent booking 
+              <span className="marketing ml-1"> without depending</span>  on referrals.
             </p>
-            <div className="hero_sub_div mt-4 mb-14">
+            <div className="hero_sub_div mt-8 mb-14">
               <p className="hero_sub">
-                <span className="salescall">Lead Pump™</span> System connects
-                you to Preapproved buyers & Motivated sellers - Sellers come to
-                You - not the other way around
-                <span className="salescall">
-                  {" "}
-                  No Cold calls or Door knocking{" "}
-                </span>
+                Our system connects you with clients 
+                searching for design Studios on  
+                <span className="salescall"> Google </span> — turns intent into
+                booked consultations. Get each lead closer to a closed deal via 
+                <span className="salescall"> Automated Email nurturing</span> 
               </p>
             </div>
           </div>
-          <iframe
-            style={{
-              display: "block",
-              margin: "auto",
-              width: "902px",
-              maxWidth: "100%",
-              aspectRatio: "1.7708830548926013",
-            }}
-            src="https://killerplayer.com/watch/video/c910f0fe-ffeb-47d7-8671-e7bcc8f08942"
-            frameBorder="0"
-            allow="autoplay; gyroscope; picture-in-picture"
-            allowFullScreen
-          ></iframe>
+          <center>
+            
+            <div className="flex justify-center my-10">
+      <iframe
+        style={{
+          display: "block",
+          margin: "auto",
+          width: "1042px",
+          maxWidth: "100%",
+          aspectRatio: "1.7708830548926013",
+        }}
+        src="https://killerplayer.com/watch/video/2586e38e-302e-4472-9bdb-022a4f50beec"
+        frameBorder="0"
+        allow="autoplay; gyroscope; picture-in-picture"
+        allowFullScreen
+      ></iframe>
+    </div>
+          </center>
         </center>
 
         <center>
           <div className="call mt-20 mb-20">
-            <p className="text-white  mt-4 mb-4">
-              Ready to fill your Pipeline today?
-            </p>
+            <p className="text-white click mt-4 mb-4">
+Check Availability
+       </p>
             <button
-  className="install mb-6"
-  onClick={() => {
-    if (typeof window !== "undefined" && window.fbq) {
-      window.fbq('track', 'Lead'); // Fire Facebook Lead event
-    }
-    fetch("/api/fb-lead", { method: "POST" }); // Call your backend Conversion API route
-    window.location.href = "https://tally.so/r/wkkqkZ"; // Redirect
-  }}
->
-  Take The Next Step
-</button>
+              className="install mb-6"
+            
+            >
+Yes! I'd like a Calendar Full of Appointments            </button>
           </div>
         </center>
-      </div>
-      <div className="bg-white screenshot">
-        <center>
-          <p className="testimonila_header rev_head text-white text-center">
-            <span className="text-black mb-20">Testimonial and Reviews</span>
-          </p>{" "}
-        </center>
-
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 justify-items-center tts mt-14 px-4">
-          <img className="test_Card" src="./a1.png" alt="testimonial" />
-          <img className="test_Card" src="./a2.png" alt="testimonial" />
-          <img className="test_Card" src="./a6.png" alt="testimonial" />
-          <img className="test_Card" src="./luka.jpg" alt="testimonial" />
-        </div>
-        <center>
-          <div className="call">
-            <p className="text-white prop mt-4 mb-4">
-              Ready to fill your Pipeline today?
-            </p>
-            <button
-  className="install mb-6"
-  onClick={() => {
-    if (typeof window !== "undefined" && window.fbq) {
-      window.fbq('track', 'Lead'); // Fire Facebook Lead event
-    }
-    fetch("/api/fb-lead", { method: "POST" }); // Call your backend Conversion API route
-    window.location.href = "https://tally.so/r/wkkqkZ"; // Redirect
-  }}
->
-  Click to claim your area exclusivity
-</button>
-          </div>
-        </center>
+        
       </div>
     </div>
   );
