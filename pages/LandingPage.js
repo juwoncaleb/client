@@ -62,52 +62,48 @@ export default function LandingPage() {
             <p className="hero_head">
               We Deliver 30–50 Qualified Commercial and Residential
               Consultations
-              <span className="salescall mr-2"> Monthly. </span> Fill your Calender with consistent booking 
-              <span className="marketing ml-1"> without depending</span>  on referrals.
+              <span className="salescall mr-2"> Monthly. </span> Fill your
+              Calender with consistent booking
+              <span className="marketing ml-1"> without depending</span> on
+              referrals.
             </p>
             <div className="hero_sub_div mt-8 mb-14">
               <p className="hero_sub">
-                Our system connects you with clients 
-                searching for design Studios on  
+                Our system connects you with clients searching for design
+                Studios on
                 <span className="salescall"> Google </span> — turns intent into
-                booked consultations. Get each lead closer to a closed deal via 
-                <span className="salescall"> Automated Email nurturing</span> 
+                booked consultations. Get each lead closer to a closed deal via
+                <span className="salescall"> Automated Email nurturing</span>
               </p>
             </div>
           </div>
           <center>
-            
             <div className="flex justify-center my-10">
-      <iframe
-        style={{
-          display: "block",
-          margin: "auto",
-          width: "1042px",
-          maxWidth: "100%",
-          aspectRatio: "1.7708830548926013",
-        }}
-        src="https://killerplayer.com/watch/video/2586e38e-302e-4472-9bdb-022a4f50beec"
-        frameBorder="0"
-        allow="autoplay; gyroscope; picture-in-picture"
-        allowFullScreen
-      ></iframe>
-    </div>
+              <iframe
+                style={{
+                  display: "block",
+                  margin: "auto",
+                  width: "1042px",
+                  maxWidth: "100%",
+                  aspectRatio: "1.7708830548926013",
+                }}
+                src="https://killerplayer.com/watch/video/2586e38e-302e-4472-9bdb-022a4f50beec"
+                frameBorder="0"
+                allow="autoplay; gyroscope; picture-in-picture"
+                allowFullScreen
+              ></iframe>
+            </div>
           </center>
         </center>
 
         <center>
           <div className="call mt-20 mb-20">
-            <p className="text-white click mt-4 mb-4">
-Check Availability
-       </p>
-            <button
-              className="install mb-6"
-            
-            >
-Yes! I'd like a Calendar Full of Appointments            </button>
+            <p className="text-white click mt-4 mb-4">Check Availability</p>
+            <button className="install mb-6">
+              Yes! I'd like a Calendar Full of Appointments{" "}
+            </button>
           </div>
         </center>
-        
       </div>
     </div>
   );
