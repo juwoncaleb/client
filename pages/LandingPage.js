@@ -99,9 +99,11 @@ export default function LandingPage() {
         <center>
           <div className="call mt-20 mb-20">
             <p className="text-white click mt-4 mb-4">Check Availability</p>
-            <button className="install mb-6">
-              Yes! I want a Calendar Full of Appointments{" "}
-            </button>
+            <Link href="https://juwoncaleb.mainstackbookings.com/p/688be3dc69f41338b668513d">
+              <button className="install mb-6">
+                Yes! I want a Calendar Full of Appointments{" "}
+              </button>
+            </Link>
           </div>
         </center>
       </div>
