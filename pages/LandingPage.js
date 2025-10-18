@@ -60,9 +60,9 @@ export default function LandingPage() {
           <div className="hero_sub_div "></div>
           <div className="h_head ">
             <p className="hero_head">
-              We Deliver 30–50 Qualified Commercial and Residential
+              We Deliver 15  Qualified Commercial and Residential
               Consultations
-              <span className="salescall mr-2"> Monthly. </span> Fill your
+              <span className="salescall mr-2"> Weekly. </span> Fill your
               Calender with Qualified booking
               <span className="marketing ml-1"> Without depending</span> on
               Referrals or  <span className="salescall mr-2"> Instagram. </span>  
