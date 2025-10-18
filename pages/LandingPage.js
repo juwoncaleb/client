@@ -64,8 +64,8 @@ export default function LandingPage() {
               Consultations
               <span className="salescall mr-2"> Monthly. </span> Fill your
               Calender with consistent booking
-              <span className="marketing ml-1"> without depending</span> on
-              referrals.
+              <span className="marketing ml-1"> Without depending</span> on
+              referrals or  <span className="salescall mr-2"> Instagram. </span>  
             </p>
             <div className="hero_sub_div mt-8 mb-14">
               <p className="hero_sub">
