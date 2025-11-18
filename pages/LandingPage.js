@@ -63,7 +63,7 @@ export default function LandingPage() {
               We Deliver 15  Qualified Commercial and Residential
               Consultations
               <span className="salescall mr-2"> Weekly. </span> Fill your
-              Calender with Qualified booking
+              Calendar  with Qualified booking
               <span className="marketing ml-1"> Without depending</span> on
               Referrals or  <span className="salescall mr-2"> Instagram. </span>  
             </p>
