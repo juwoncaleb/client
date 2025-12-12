@@ -99,7 +99,7 @@ export default function LandingPage() {
         <center>
           <div className="call mt-20 mb-20">
             <p className="text-white click mt-4 mb-4">Check Availability</p>
-            <Link href="https://juwoncaleb.mainstackbookings.com/p/688be3dc69f41338b668513d">
+            <Link href="https://mainstack.com/marketing-consultations">
               <button className="install mb-6">
                 Yes! I want a Calendar Full of Appointments{" "}
               </button>
