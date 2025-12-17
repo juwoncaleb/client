@@ -9,9 +9,10 @@
 @import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Hedvig+Letters+Serif:opsz@12..24&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Hedvig+Letters+Serif:opsz@12..24&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap');@tailwind base;
+@import url("https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap");
+@tailwind base;
 @tailwind components;
 @tailwind utilities;
 html,
@@ -42,10 +43,42 @@ body {
   font-style: normal;
   color: white;
   line-height: 72px;
-  font-size: 40px;
+  font-size: 50px;
   text-align: center;
 }
-
+.whitediv {
+  background-color: #ff8c00;
+  font-size: 30px;
+  color: white;
+  font-family: "Instrument Sans", sans-serif;
+  padding: 5px;
+  margin-bottom: 30px;
+}
+.success {
+  color: white;
+  font-size: 35px;
+  font-family: "Hedvig Letters Serif", serif;
+}
+.success_min {
+  color: white;
+  font-size: 25px;
+  font-family: "Hedvig Letters Serif", serif;
+  margin-top: 40px;
+  text-decoration: underline;
+  margin-bottom: 8px;
+}
+.success_call {
+  font-size: 18px;
+  font-family: "Instrument Sans", sans-serif;
+  color: white;
+}
+.success_div{
+  max-width: 600px;
+}
+.booking{
+  max-width: 70%;
+  margin-top: 50px;
+}
 .warning {
   text-align: center;
   color: white;
@@ -67,14 +100,14 @@ body {
 }
 
 .salescall {
-  color: #FF8C00;
+  color: #ff8c00;
   font-weight: 800;
 }
 .marketing {
   text-decoration: underline;
-  text-decoration-color: #FF8C00;
+  text-decoration-color: #ff8c00;
 }
-.div_line{
+.div_line {
   width: 90%;
   height: 5px;
   background-color: white;
@@ -100,7 +133,7 @@ body {
   margin-top: 50px;
 }
 .install {
-  background-color: #FF8C00;
+  background-color: #ff8c00;
   color: black;
   width: 620px;
   border-radius: 7px;
@@ -126,13 +159,13 @@ body {
   height: 5px;
   width: 100%;
   border: solid 2px white;
-  background-color: dodgerblue;
+  background-color: #7A281A;
 }
 .button_bg {
   font-family: Montserrat;
   padding: 10px;
   width: 800px;
-  background-color: dodgerblue;
+  background-color: #7A281A;
 }
 .testimonial_block {
   font-family: Montserrat;
@@ -142,10 +175,9 @@ body {
   color: white;
 }
 .vsl_page {
-  background-color: #1A0A07;
+  background-color: #1a0a07;
   padding-top: 50px;
   color: black !important;
- 
 }
 .Trigger {
   color: white;
@@ -159,17 +191,17 @@ body {
   font-weight: bold;
   text-decoration: underline;
 }
-.subbook{
+.subbook {
   font-size: 22px;
 }
-.pumo{
+.pumo {
   font-size: 17px;
 }
-.bolderText{
+.bolderText {
   font-weight: 700;
   text-decoration: underline;
 }
-.confirm{
+.confirm {
   max-width: 80%;
   margin-top: 70px;
   margin-bottom: 70px;
@@ -179,7 +211,6 @@ body {
   font-size: 60px;
   line-height: 75px;
   margin-bottom: 15px;
-
 }
 .testimonila_header {
   font-family: "EB Garamond", serif;
@@ -189,7 +220,7 @@ body {
   margin-bottom: 50px;
 }
 .vsl_div {
-    background-color: #1A0A07;
+  background-color: #1a0a07;
   padding-top: 100px;
   padding-bottom: 100px;
   padding-left: 70px;
@@ -240,13 +271,14 @@ iframe {
 .pre_div {
   max-width: 800px;
 }
-.landp{
-margin-bottom: 50px;}
-.prop{
+.landp {
+  margin-bottom: 50px;
+}
+.prop {
   font-size: 20px;
 }
-.cau{
-  background-color: #FF8C00;
+.cau {
+  background-color: #ff8c00;
   color: black;
   font-weight: 600;
 }
@@ -267,7 +299,6 @@ margin-bottom: 50px;}
   color: white;
   font-size: 18px;
   font-family: "Arimo", sans-serif;
-
 }
 .hero_sub_div {
   max-width: 1000px;
@@ -377,7 +408,7 @@ margin-bottom: 50px;}
     line-height: 55px;
     margin-bottom: 50px;
   }
-  .confirm{
+  .confirm {
     max-width: 100%;
     margin-top: 70px;
     margin-bottom: 70px;
@@ -385,7 +416,7 @@ margin-bottom: 50px;}
 }
 
 @media only screen and (max-width: 800px) {
-  .landp{
+  .landp {
     padding-left: 3%;
     padding-right: 3%;
   }
@@ -443,7 +474,7 @@ margin-bottom: 50px;}
     font-family: Montserrat;
     padding: 20px;
     width: 100%;
-    background-color: dodgerblue;
+    background-color: #7A281A;
   }
   .hero_sub {
     color: white;
@@ -454,7 +485,7 @@ margin-bottom: 50px;}
 /* Responsive styles for screens smaller than 450px */
 
 .notice {
-  background-color: dodgerblue;
+  background-color: #7A281A;
   color: white;
   font-size: 23px;
   font-family: "Instrument Sans", sans-serfif;
@@ -471,11 +502,10 @@ margin-bottom: 50px;}
 }
 .screenshot {
   padding-bottom: 10px;
-  background-color:  #1A0A07;
+  background-color: #1a0a07;
   color: black;
   padding-top: 10px;
   border-top: 4px solid white;
-
 }
 
 @media only screen and (max-width: 450px) {
@@ -483,15 +513,15 @@ margin-bottom: 50px;}
     color: white;
     font-size: 16px;
   }
-  .subbook{
+  .subbook {
     font-size: 18px;
   }
   .install {
-    background-color: #FF8C00;
+    background-color: #ff8c00;
     color: black;
     width: 350px;
     border-radius: 7px;
-    height: 50px;
+    height: 70px;
     padding-top: 5px;
     padding-bottom: 1px;
     font-weight: 500;
@@ -499,7 +529,15 @@ margin-bottom: 50px;}
 
     font-size: 18px;
   }
-  .cdh{
+  .whitediv {
+  background-color: #ff8c00;
+  font-size: 18px;
+  color: white;
+  font-family: "Instrument Sans", sans-serif;
+  padding: 5px;
+  margin-bottom: 30px;
+}
+  .cdh {
     height: 200px !important;
   }
   .book {
@@ -508,13 +546,17 @@ margin-bottom: 50px;}
   .video {
     width: 400px !important;
   }
+  .booking{
+  max-width: 97%;
+  margin-top: 50px;
+}
   .testimonila_header {
     font-family: "EB Garamond", serif;
     font-size: 38px;
     line-height: 50px;
     margin-bottom: 0px;
   }
-  .prop{
+  .prop {
     font-size: 16px;
   }
   .hero_head {
@@ -529,9 +571,14 @@ margin-bottom: 50px;}
   .tts {
     display: grid !important;
   }
-  .cdh{
+  .cdh {
     height: 150px !important;
   }
+  .success {
+  color: white;
+  font-size: 25px;
+  font-family: "Hedvig Letters Serif", serif;
+}
   .warning {
     text-align: center;
     font-size: 15px;
@@ -548,7 +595,7 @@ margin-bottom: 50px;}
     background-color: dod;
   }
   .vsl_div {
-    background-color: #1A0A07;
+    background-color: #1a0a07;
     padding-top: 100px;
     padding-bottom: 100px;
     padding-left: 10px;
@@ -588,7 +635,7 @@ margin-bottom: 50px;}
     color: white;
   }
   .call {
-    background-color: dodgerblue;
+    background-color: #7A281A;
     padding: 5px;
     margin-top: 30px;
     max-width: 750px;
@@ -598,6 +645,5 @@ margin-bottom: 50px;}
     font-size: 14px;
   }
 }
-.sub_head{
-  
+.sub_head {
 }

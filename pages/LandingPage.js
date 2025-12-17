@@ -23,17 +23,12 @@ export default function LandingPage() {
   return (
     <div className="vsl_page bg-cover bg-center bg-no-repeat min-h-screen ">
       <Head>
-        <title>
-          For Interior designers
-        </title>
+        <title>For Interior designers</title>
         <meta
           property="og:title"
           content="Close 3 deals momthly without Chasing Referrals"
         />
-        <meta
-          property="og:description"
-          content="For Interior designers."
-        />
+        <meta property="og:description" content="For Interior designers." />
         <meta
           property="og:image"
           content="https://ik.imagekit.io/juwoncaleb/Screenshot%202025-04-29%20164345_mnrAnKNT4.jpg?updatedAt=1745941553167"
@@ -41,10 +36,7 @@ export default function LandingPage() {
         <meta property="og:url" content="https://yourdomain.com" />
         <meta property="og:type" content="website" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta
-          name="twitter:title"
-          content="For Interior designers"
-        />
+        <meta name="twitter:title" content="For Interior designers" />
         <meta
           name="twitter:description"
           content="For Realtors tired of chasing referrals — get preapproved buyers & motivated sellers on autopilot."
@@ -59,21 +51,26 @@ export default function LandingPage() {
         <center>
           <div className="hero_sub_div "></div>
           <div className="h_head ">
-            <p className="hero_head">
-              We Deliver 15  Qualified Commercial and Residential
-              Consultations
+            <p className="hero_sub">
+              <span className=" whitediv">
+                For Established Interior Design Firms ONLY!
+              </span>
+            </p>
+            <p className="hero_head mt-10">
+              We will send 15 Qualified Consultations
               <span className="salescall mr-2"> Weekly. </span> Fill your
-              Calender with Qualified booking
+              Calender with Qualified booking,
               <span className="marketing ml-1"> Without depending</span> on
-              Referrals or  <span className="salescall mr-2"> Instagram. </span>  
+              Referrals or <span className="salescall mr-2"> Instagram. </span>
             </p>
             <div className="hero_sub_div mt-8 mb-14">
               <p className="hero_sub">
                 Our system connects you with clients searching for design
                 Studios on
                 <span className="salescall"> Google </span> — turns intent into
-                booked consultations. Get each lead closer to a closed deal via
-                <span className="salescall"> Automated Email nurturing</span>
+                booked consultations. We make it easier for clients looking for
+                you to
+                <span className="salescall"> find you</span>
               </p>
             </div>
           </div>
@@ -106,7 +103,47 @@ export default function LandingPage() {
             </Link>
           </div>
         </center>
+
+        <center>
+          <p className="success">
+            Every successful interior design firm we’ve worked with started on
+            this page{" "}
+          </p>
+          <p className="success_min">STEP 1 - BOOK A CALL </p>
+          <div className="success_div">
+            <p className="success_call">
+              This is not a sales call. There’s no hard selling, and no pressure
+              to convince you of anything. Our goal is simply to understand the
+              challenges holding you back from landing high-end,
+              Residential/Commercial Clients.
+            </p>
+          </div>
+          <img className="booking" src="./bookcall.png" />
+
+          <p className="success_min">STEP 2 - GET TO KNOW OUR SYSTEM MORE </p>
+          <div className="success_div">
+            <p className="success_call">
+              Before you get on a call with me, it helps to understand how our
+              system works and see if we’re a good fit for you. The best place
+              to access our free resources is our YouTube channel. After you
+              book a call, you’ll be redirected there, where you can find
+              valuable content showing how we help designers grow.
+            </p>
+          </div>
+          <img className="booking" src="./Ytfunell.png" />
+        </center>
       </div>
+         <center>
+          <div className="call mt-20 mb-20">
+            <p className="text-white click mt-4 mb-4">Check Availability</p>
+            <Link href="https://juwoncaleb.mainstackbookings.com/p/688be3dc69f41338b668513d">
+              <button className="install mb-6">
+                Yes! I want a Calendar Full of Appointments{" "}
+              </button>
+            </Link>
+          </div>
+        </center>
+
     </div>
   );
 }

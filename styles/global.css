@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
@@ -10,7 +11,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 html,
 body {
   margin: 0;
@@ -34,10 +37,6 @@ body {
   text-align: center;
 }
 
-.click{
-    font-family: "Hedvig Letters Serif", serif;
-
-}
 .hero_head {
   font-family: "Hedvig Letters Serif", serif;
   font-optical-sizing: auto;
@@ -45,110 +44,49 @@ body {
   font-style: normal;
   color: white;
   line-height: 72px;
-  font-size: 40px;
-  text-align: center;
-}
-.style {
-  font-size: 30px !important;
-  font-family: "Hedvig Letters Serif", serif !;
-  border: 1px solid gray;
-}
-.style_sub {
-  font-size: 20px;
-  color: white;
-  margin-top: 20px;
-}
-.proceess {
-  margin-top: 150px;
-}
-.commission-card {
-  background: #1f1f1f;
-  color: #fff;
-  padding: 24px;
-  border-radius: 12px;
-  max-width: 500px;
-  margin: 0 auto;
-  font-family: Inter, system-ui, sans-serif;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
-}
-
-.commission-title {
-  font-size: 24px;
-  font-weight: 700;
-  margin-bottom: 16px;
+  font-size: 50px;
   text-align: center;
 }
 
-.commission-list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.commission-item {
-  background: rgba(255, 255, 255, 0.05);
-  padding: 12px 16px;
-  margin-bottom: 10px;
-  border-radius: 8px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  font-size: 16px;
-}
-
-.commission-item strong {
-  font-weight: 600;
-}
-
-@media (max-width: 480px) {
-  .commission-card {
-    padding: 16px;
-  }
-
-  .commission-item {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 6px;
-  }
-}
-
-.referral-container {
-  color: #f5f5f5;
-  padding: 24px;
-  border-radius: 8px;
-  max-width: 420px;
-  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
-  line-height: 1.5;
-}
-
-.referral-section-title {
-  margin: 0 0 12px 0;
-  font-size: 20px;
-  font-weight: 700;
-}
-
-.referral-list {
-  margin: 0;
-  padding-left: 20px;
-  margin-bottom: 18px;
-}
-
-.referral-list-item {
-  margin-bottom: 10px;
-  font-size: 16px;
-}
-
-.prop {
+.whitediv {
+  background-color: #ff8c00;
+  font-size: 30px;
   color: white;
-  font-size: 16px;
-  margin-left: 2%;
-  margin-right: 2%;
-  text-align: left;
+  font-family: "Instrument Sans", sans-serif;
+  padding: 5px;
+  margin-bottom: 30px;
 }
-.process_div {
-  border: 1px solid gray;
-  padding: 20px;
+
+.success {
+  color: white;
+  font-size: 35px;
+  font-family: "Hedvig Letters Serif", serif;
 }
+
+.success_min {
+  color: white;
+  font-size: 25px;
+  font-family: "Hedvig Letters Serif", serif;
+  margin-top: 40px;
+  text-decoration: underline;
+  margin-bottom: 8px;
+}
+
+.success_call {
+  font-size: 18px;
+  font-family: "Instrument Sans", sans-serif;
+  color: white;
+}
+
+.success_div {
+  max-width: 600px;
+}
+
+.booking {
+  max-width: 70%;
+  margin-top: 50px;
+}
+
 .warning {
   text-align: center;
   color: white;
@@ -232,6 +170,7 @@ body {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   z-index: 9999; /* Ensure it stays on top of other content */
 }
+
 .line {
   height: 5px;
   width: 100%;
@@ -291,6 +230,7 @@ body {
   margin-top: 70px;
   margin-bottom: 70px;
 }
+
 .AGent_text {
   font-family: "EB Garamond", serif;
   font-size: 60px;
@@ -381,6 +321,7 @@ iframe {
   margin-top: 50px;
   max-width: 750px;
 }
+
 .broker_ext {
   max-width: 800px;
   font-family: Nunito;
@@ -447,7 +388,7 @@ iframe {
   color: gray;
   font-family: Nunito;
   text-align: center;
-}
+} 
 .app_head {
   background-color: rgb(228, 253, 240);
   padding-top: 100px;
@@ -596,7 +537,7 @@ iframe {
 .test_hd {
   font-size: 45px;
   -webkit-text-decoration: dashed;
-  text-decoration: dashed;
+          text-decoration: dashed;
   color: white;
   font-weight: 600;
   text-align: center;
@@ -634,6 +575,14 @@ iframe {
     padding-left: 0px 10px;
     font-size: 18px;
   }
+  .whitediv {
+    background-color: #ff8c00;
+    font-size: 18px;
+    color: white;
+    font-family: "Instrument Sans", sans-serif;
+    padding: 5px;
+    margin-bottom: 30px;
+  }
   .cdh {
     height: 200px !important;
   }
@@ -642,6 +591,10 @@ iframe {
   }
   .video {
     width: 400px !important;
+  }
+  .booking {
+    max-width: 97%;
+    margin-top: 50px;
   }
   .testimonila_header {
     font-family: "EB Garamond", serif;
@@ -667,6 +620,11 @@ iframe {
   .cdh {
     height: 150px !important;
   }
+  .success {
+    color: white;
+    font-size: 25px;
+    font-family: "Hedvig Letters Serif", serif;
+  }
   .warning {
     text-align: center;
     font-size: 15px;
@@ -680,7 +638,7 @@ iframe {
     color: white;
     font-size: 15px;
     font-family: "Instrument Sans", sans-serfif;
-    background-color: #7A281A;
+    background-color: dod;
   }
   .vsl_div {
     background-color: #1a0a07;
@@ -730,5 +688,4 @@ iframe {
     color: white;
     font-size: 14px;
   }
-} /*# sourceMappingURL=global.css.map */
-
+}/*# sourceMappingURL=global.css.map */
