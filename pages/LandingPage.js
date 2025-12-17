@@ -57,7 +57,7 @@ export default function LandingPage() {
               </span>
             </p>
             <p className="hero_head mt-10">
-              We will send 15 Qualified Consultations
+              We will send 10 Qualified Consultations
               <span className="salescall mr-2"> Weekly. </span> Fill your
               Calender with Qualified booking
               <span className="marketing ml-1"> Without depending</span> on
@@ -69,8 +69,8 @@ export default function LandingPage() {
                 Studios on
                 <span className="salescall"> Google </span> — turns intent into
                 booked consultations. We make it easier for clients looking for
-                you to
-                <span className="salescall"> find you</span>
+               design services to
+                <span className="salescall"> Find You</span>
               </p>
             </div>
           </div>
