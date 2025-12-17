@@ -68,8 +68,7 @@ export default function LandingPage() {
                 Our system connects you with clients searching for design
                 Studios on
                 <span className="salescall"> Google </span> — turns intent into
-                booked consultations. We make it easier for clients looking for
-               design services to
+                booked consultations. We make it easier for clients  already looking for you to 
                 <span className="salescall"> Find You</span>
               </p>
             </div>
