@@ -105,10 +105,7 @@ export default function LandingPage() {
         </center>
 
         <center>
-          <p className="success">
-            Every successful interior design firm we’ve worked with started on
-            this page{" "}
-          </p>
+        
           <p className="success_min">STEP 1 - BOOK A CALL </p>
           <div className="success_div">
             <p className="success_call">
