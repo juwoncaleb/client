@@ -118,7 +118,8 @@ export default function LandingPage() {
               Residential/Commercial Clients.
             </p>
           </div>
-          <img className="booking" src="./bookcall.png" />
+          <img className="booking hidden sm:block" src="./bookcall.png" />
+          <img className="booking block sm:hidden" src="./bookmin.png" />
 
           <p className="success_min">STEP 2 - GET TO KNOW OUR SYSTEM MORE </p>
           <div className="success_div">
@@ -130,20 +131,20 @@ export default function LandingPage() {
               valuable content showing how we help designers grow.
             </p>
           </div>
-          <img className="booking" src="./Ytfunell.png" />
+          <img className="booking hidden sm:block" src="./Ytfunell.png" />
+          <img className="booking block sm:hidden" src="./ytmob.png" />
         </center>
       </div>
-         <center>
-          <div className="call mt-20 mb-20">
-            <p className="text-white click mt-4 mb-4">Check Availability</p>
-            <Link href="https://juwoncaleb.mainstackbookings.com/p/688be3dc69f41338b668513d">
-              <button className="install mb-6">
-                Yes! I want a Calendar Full of Appointments{" "}
-              </button>
-            </Link>
-          </div>
-        </center>
-
+      <center>
+        <div className="call mt-20 mb-20">
+          <p className="text-white click mt-4 mb-4">Check Availability</p>
+          <Link href="https://juwoncaleb.mainstackbookings.com/p/688be3dc69f41338b668513d">
+            <button className="install mb-6">
+              Yes! I want a Calendar Full of Appointments{" "}
+            </button>
+          </Link>
+        </div>
+      </center>
     </div>
   );
 }
