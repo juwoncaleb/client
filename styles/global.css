@@ -645,6 +645,11 @@ iframe {
     font-family: "Instrument Sans", sans-serfif;
     color: rgb(240, 240, 240);
   }
+  .click {
+    font-size: 25px;
+    font-family: "Arimo", sans-serif;
+    text-decoration: underline;
+  }
   .notice {
     color: white;
     font-size: 15px;
