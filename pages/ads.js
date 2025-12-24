@@ -128,6 +128,7 @@ export default function LandingPage() {
           <img className="booking block sm:hidden" src="./bookmin.png" />
         </center>
       </div>
+      
       <center>
          <div className="call mt-20 mb-20">
             <p className="text-white click mt-4 mb-4">
