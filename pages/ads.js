@@ -10,7 +10,7 @@ export default function LandingPage() {
 
     // Redirect after firing event
     window.location.href =
-      "https://mainstack.com/marketing-consultations";
+      "https://tally.so/forms/xXrpJG/edit";
   };
 
   return (
@@ -141,7 +141,7 @@ export default function LandingPage() {
             Learn More From My YouTube
           </p>
 
-          <button
+          <button 
             onClick={trackLeadAndRedirect}
             className="install mb-6"
           >
