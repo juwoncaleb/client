@@ -2,14 +2,15 @@ import React from "react";
 import Head from "next/head";
 
 export default function LandingPage() {
-  // Track Quora Lead + redirect
+  // Track Meta Lead on CTA click
   const trackLeadAndRedirect = () => {
-    if (typeof window !== "undefined" && window.qp) {
-      window.qp("track", "GenerateLead");
+    if (typeof window !== "undefined" && window.fbq) {
+      window.fbq("track", "Lead");
     }
 
     // Redirect after firing event
-    window.location.href = "https://tally.so/r/xXrpJG";
+    window.location.href =
+      "https://tally.so/r/xXrpJG";
   };
 
   return (
@@ -42,7 +43,8 @@ export default function LandingPage() {
               <p className="hero_sub">
                 Our system connects you with clients actively searching for
                 design studios on
-                <span className="salescall"> Google. </span> We make it easier for clients already
+                <span className="salescall"> Google </span>—turning intent into
+                booked consultations. We make it easier for clients already
                 looking for you to
                 <span className="salescall"> find you.</span>
               </p>
@@ -82,8 +84,55 @@ export default function LandingPage() {
           </div>
         </center>
 
-        {/* ===== STEPS (unchanged) ===== */}
-        {/* ...your existing steps content stays exactly the same... */}
+        {/* ===== STEPS ===== */}
+        <center>
+          <p className="success_min step2">
+            STEP 1 – GET TO KNOW OUR SYSTEM
+          </p>
+          <div className="success_div">
+            <p className="success_call">
+              Before booking a call, it helps to understand how our system works
+              and see if we’re a good fit. The best place to start is our YouTube
+              channel, where we share free training and real examples.
+            </p>
+          </div>
+
+          <img className="booking hidden sm:block" src="./Ytfunell.png" />
+          <img className="booking block sm:hidden" src="./ytmob.png" />
+
+          <p className="success_min step2">
+            STEP 2 – GET ACCESS TO OUR FREE GUIDE
+          </p>
+          <div className="success_div">
+            <p className="success_call">
+              This free guide breaks down a simple system for attracting
+              residential and commercial clients—without referrals, endless
+              Instagram posting, or guesswork. The link is available in every
+              YouTube video description.
+            </p>
+          </div>
+
+          <img className="booking" src="./hotel.png" />
+
+          <p className="success_min step2">
+            STEP 3 – BOOK A CALL
+          </p>
+          <div className="success_div">
+            <p className="success_call">
+              If you’d like us to implement this system so qualified residential
+              and commercial clients book calls with you weekly—without relying
+              on referrals or Instagram—you can book a call with me.
+              <br /><br />
+              BOOKING LINK IN THE DESCRIPTION OF ALL MY YOUTUBE VIDEOS
+              This is not a sales call. There’s no pressure or hard selling.
+              The goal is simply to walk you through the system and see if it’s
+              a good fit.
+            </p>
+          </div>
+
+          <img className="booking hidden sm:block" src="./bookcall.png" />
+          <img className="booking block sm:hidden" src="./bookmin.png" />
+        </center>
       </div>
 
       {/* ===== CTA 2 ===== */}
@@ -93,7 +142,7 @@ export default function LandingPage() {
             Learn More From My YouTube
           </p>
 
-          <button
+          <button 
             onClick={trackLeadAndRedirect}
             className="install mb-6"
           >
