@@ -123,6 +123,7 @@ export default function LandingPage() {
               and commercial clients book calls with you weekly—without relying
               on referrals or Instagram—you can book a call with me.
               <br /><br />
+              BOOKING LINK IN THE DESCRIPTION OF ALL MY YOUTUBE VIDEOS
               This is not a sales call. There’s no pressure or hard selling.
               The goal is simply to walk you through the system and see if it’s
               a good fit.
