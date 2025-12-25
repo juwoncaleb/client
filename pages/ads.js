@@ -9,8 +9,7 @@ export default function LandingPage() {
     }
 
     // Redirect after firing event
-    window.location.href =
-      "https://tally.so/r/xXrpJG";
+    window.location.href = "https://tally.so/r/xXrpJG";
   };
 
   return (
@@ -43,14 +42,14 @@ export default function LandingPage() {
               <p className="hero_sub">
                 Our system connects you with clients actively searching for
                 design studios on
-                <span className="salescall"> Google. </span> We make it easier for clients already
-                looking for you to
+                <span className="salescall"> Google. </span> We make it easier
+                for clients already looking for you to
                 <span className="salescall"> find you.</span>
               </p>
             </div>
           </div>
 
-          <div className="flex justify-center my-10">
+         <div className="flex justify-center my-10">
   <iframe
     style={{
       display: "block",
@@ -61,7 +60,7 @@ export default function LandingPage() {
     }}
     src="https://killerplayer.com/watch/video/c4d6fdef-4174-4b28-9d8f-64beaacc081d"
     frameBorder="0"
-    allow="autoplay; gyroscope; picture-in-picture"
+    allow="autoplay; gyroscope; picture-in-picture;"
     allowFullScreen
   ></iframe>
 </div>
@@ -75,10 +74,7 @@ export default function LandingPage() {
               Learn More From My YouTube
             </p>
 
-            <button
-              onClick={trackLeadAndRedirect}
-              className="install mb-6"
-            >
+            <button onClick={trackLeadAndRedirect} className="install mb-6">
               Yes! I want a Calendar Full of Appointments
             </button>
           </div>
@@ -86,14 +82,12 @@ export default function LandingPage() {
 
         {/* ===== STEPS ===== */}
         <center>
-          <p className="success_min step2">
-            STEP 1 – GET TO KNOW OUR SYSTEM
-          </p>
+          <p className="success_min step2">STEP 1 – GET TO KNOW OUR SYSTEM</p>
           <div className="success_div">
             <p className="success_call">
               Before booking a call, it helps to understand how our system works
-              and see if we’re a good fit. The best place to start is our YouTube
-              channel, where we share free training and real examples.
+              and see if we’re a good fit. The best place to start is our
+              YouTube channel, where we share free training and real examples.
             </p>
           </div>
 
@@ -114,19 +108,17 @@ export default function LandingPage() {
 
           <img className="booking" src="./hotel.png" />
 
-          <p className="success_min step2">
-            STEP 3 – BOOK A CALL
-          </p>
+          <p className="success_min step2">STEP 3 – BOOK A CALL</p>
           <div className="success_div">
             <p className="success_call">
               If you’d like us to implement this system so qualified residential
               and commercial clients book calls with you weekly—without relying
               on referrals or Instagram—you can book a call with me.
-              <br /><br />
-              BOOKING LINK IN THE DESCRIPTION OF ALL MY YOUTUBE VIDEOS
-              This is not a sales call. There’s no pressure or hard selling.
-              The goal is simply to walk you through the system and see if it’s
-              a good fit.
+              <br />
+              <br />
+              BOOKING LINK IN THE DESCRIPTION OF ALL MY YOUTUBE VIDEOS This is
+              not a sales call. There’s no pressure or hard selling. The goal is
+              simply to walk you through the system and see if it’s a good fit.
             </p>
           </div>
 
@@ -142,10 +134,7 @@ export default function LandingPage() {
             Learn More From My YouTube
           </p>
 
-          <button 
-            onClick={trackLeadAndRedirect}
-            className="install mb-6"
-          >
+          <button onClick={trackLeadAndRedirect} className="install mb-6">
             Yes! I want a Calendar Full of Appointments
           </button>
         </div>
