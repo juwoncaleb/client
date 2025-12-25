@@ -49,22 +49,21 @@ export default function LandingPage() {
             </div>
           </div>
 
-         <div className="flex justify-center my-10">
-  <iframe
-    style={{
-      display: "block",
-      margin: "auto",
-      width: "742px",
-      maxWidth: "100%",
-      aspectRatio: "1.7708830548926013",
-    }}
-    src="https://killerplayer.com/watch/video/c4d6fdef-4174-4b28-9d8f-64beaacc081d"
-    frameBorder="0"
-    allow="autoplay; gyroscope; picture-in-picture;"
-    allowFullScreen
-  ></iframe>
-</div>
-
+          <div className="flex justify-center my-10">
+            <iframe
+              style={{
+                display: "block",
+                margin: "auto",
+                width: "1042px",
+                maxWidth: "100%",
+                aspectRatio: "1.77",
+              }}
+              src="https://killerplayer.com/watch/video/2586e38e-302e-4472-9bdb-022a4f50beec" // new URL
+              frameBorder="0"
+              allow="autoplay; gyroscope; picture-in-picture"
+              allowFullScreen
+            ></iframe>
+          </div>
         </center>
 
         {/* ===== CTA 1 ===== */}
