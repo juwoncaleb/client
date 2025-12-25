@@ -10,7 +10,7 @@ export default function LandingPage() {
 
     // Redirect after firing event
     window.location.href =
-      "https://tally.so/forms/xXrpJG/edit";
+      "https://tally.so/r/xXrpJG";
   };
 
   return (
