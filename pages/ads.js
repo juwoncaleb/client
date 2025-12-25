@@ -43,8 +43,7 @@ export default function LandingPage() {
               <p className="hero_sub">
                 Our system connects you with clients actively searching for
                 design studios on
-                <span className="salescall"> Google </span>—turning intent into
-                booked consultations. We make it easier for clients already
+                <span className="salescall"> Google. </span> We make it easier for clients already
                 looking for you to
                 <span className="salescall"> find you.</span>
               </p>
